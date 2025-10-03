@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f1115" />
+  <title>Cartes Hockey – v1</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>🃏 Cartes Hockey</h1>
+    <div id="app"></div>
+  </main>
+  <script defer src="app.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("./sw.js").catch(console.error);
+    }
+  </script>
+</body>
+</html>
