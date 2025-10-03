@@ -1,2 +1,25 @@
 
-{ "questions": {} }
+{
+  "memory_pairs": [
+    {"id":"ecran","label":"Écran","emoji":"🛡️"},
+    {"id":"mise","label":"Mise au jeu","emoji":"🔁"},
+    {"id":"forecheck","label":"Échec avant","emoji":"🚀"},
+    {"id":"repli","label":"Repli défensif","emoji":"🏃‍♂️"},
+    {"id":"bande","label":"Bataille bande","emoji":"🧱"},
+    {"id":"enclave","label":"Enclave","emoji":"🎯"}
+  ],
+  "vision": [
+    {"s":"2v1 : le défenseur ferme la passe.", "o":["Forcer la passe","Tirer au filet","Ralentir"], "a":1, "p":10, "t":6},
+    {"s":"Sortie de zone sous pression.", "o":["Passe longue risquée","Petite passe de soutien","Dégagement interdit"], "a":1, "p":10, "t":7},
+    {"s":"Coéquipier seul dans l’enclave.", "o":["Garder la rondelle","Passer vite dans l’enclave","Tirer angle fermé"], "a":1, "p":10, "t":6},
+    {"s":"Infériorité numérique 4v5.", "o":["Écarter la structure","Rester compact et couper lignes","Forcer 2v1 offensif"], "a":1, "p":10, "t":7},
+    {"s":"Entrée de zone à plat.", "o":["Feinte + tir rapide","Tir de la bleue systématique","Tourner en rond"], "a":0, "p":10, "t":6}
+  ],
+  "drills": [
+    {"cue":"Tête→Épaule→Scan→Appel de bâton","sec":12},
+    {"cue":"Main haut ferme / bas souple + réception douce","sec":10},
+    {"cue":"Bouger les pieds avant la passe (dispo)","sec":10},
+    {"cue":"Communication: “ici!” + palette visible","sec":8},
+    {"cue":"Protection rondelle (dos à l’adversaire)","sec":10}
+  ]
+}
